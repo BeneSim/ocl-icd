@@ -100,8 +100,6 @@ AX_CHECK_COMPILER_FLAGS([-Wno-deprecated-declarations],
 AC_SUBST([NO_DEPRECATED_DECLARATIONS_FLAGS])
 
 # Checks for library functions.
-AC_FUNC_MALLOC
-AC_FUNC_REALLOC
 AC_CHECK_FUNCS([strstr])
 
 # --enable-pthread-once
